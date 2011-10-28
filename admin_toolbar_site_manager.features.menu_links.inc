@@ -124,6 +124,25 @@ function admin_toolbar_site_manager_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
+    'weight' => '-48',
+    'parent_path' => 'admin/people',
+  );
+  // Exported menu link: menu-toolbar-site-manager:admin/people/all
+  $menu_links['menu-toolbar-site-manager:admin/people/all'] = array(
+    'menu_name' => 'menu-toolbar-site-manager',
+    'link_path' => 'admin/people/all',
+    'router_path' => 'admin/people/all',
+    'link_title' => 'Manage People',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
     'weight' => '-49',
     'parent_path' => 'admin/people',
   );
@@ -253,6 +272,7 @@ function admin_toolbar_site_manager_menu_default_menu_links() {
   t('Appearance');
   t('Blocks');
   t('Center Footer');
+  t('Manage People');
   t('Create New Person');
   t('Home');
   t('Logout');
