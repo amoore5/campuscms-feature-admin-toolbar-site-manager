@@ -4,4 +4,4 @@
  * Code for the Admin Toolbar - Site Manager feature.
  */
 
-include_once('admin_toolbar_site_manager.features.inc');
+include_once('cms_feature_admin_toolbar_site_manager.features.inc');

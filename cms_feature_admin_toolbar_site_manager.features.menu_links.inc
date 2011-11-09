@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * admin_toolbar_site_manager.features.menu_links.inc
+ * cms_feature_admin_toolbar_site_manager.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function admin_toolbar_site_manager_menu_default_menu_links() {
+function cms_feature_admin_toolbar_site_manager_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: menu-toolbar-site-manager:<front>

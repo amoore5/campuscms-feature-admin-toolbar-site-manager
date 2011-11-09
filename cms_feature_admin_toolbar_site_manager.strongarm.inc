@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * admin_toolbar_site_manager.strongarm.inc
+ * cms_feature_admin_toolbar_site_manager.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function admin_toolbar_site_manager_strongarm() {
+function cms_feature_admin_toolbar_site_manager_strongarm() {
   $export = array();
 
   $strongarm = new stdClass;
