@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * cms_feature_admin_toolbar_site_manager.features.menu_custom.inc
+ * campuscms_feature_admin_toolbar_site_manager.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function cms_feature_admin_toolbar_site_manager_menu_default_menu_custom() {
+function campuscms_feature_admin_toolbar_site_manager_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: menu-toolbar-site-manager
